@@ -1,0 +1,61 @@
+{
+  "widgetDescription" : "text",
+  "updationTimestamp" : "2016-12-06 08:30:14.0",
+  "updatedByUserId" : 7,
+  "minHeight" : 2,
+  "height" : 2,
+  "widgetTags" : "testing 1234|~|",
+  "minWidth" : 4,
+  "width" : 4,
+  "widgetCollectionId" : 2,
+  "widgetId" : 1000,
+  "widgetTitle" : "testing 1234_1 text",
+  "projectId" : 141,
+  "widgetCollectionName" : "summary",
+  "elements" : [ {
+    "elementId" : 2,
+    "elementName" : "summary",
+    "elementSourceObjectType" : "model",
+    "width" : 2,
+    "data" : {
+      "value" : "Call: randomForest(formula = Petal.Width ~ Petal.Length, data = esetML36028,      ntree = 2, importance = TRUE)                Type of random forest: regression                     Number of trees: 2No. of variables tried at each split: 1          Mean of squared residuals: 0.07399576                    % Var explained: 86.15Variable Importance Table             IncNodePurityPetal.Length      28.64727",
+      "format" : "summary"
+    },
+    "properties" : [ {
+      "propertyName" : "summaryHeight",
+      "propertyId" : 5,
+      "propertyValue" : "2",
+      "isInternal" : 0,
+      "propertyTitle" : "Height"
+    }, {
+      "propertyName" : "summaryWidth",
+      "propertyId" : 6,
+      "propertyValue" : "4",
+      "isInternal" : 0,
+      "propertyTitle" : "Width"
+    }, {
+      "propertyName" : "x",
+      "propertyId" : 13,
+      "propertyValue" : "0",
+      "isInternal" : 1,
+      "propertyTitle" : "X"
+    }, {
+      "propertyName" : "y",
+      "propertyId" : 14,
+      "propertyValue" : "0",
+      "isInternal" : 1,
+      "propertyTitle" : "Y"
+    } ],
+    "elementInputTypeId" : 3,
+    "elementSourceObjectTypeId" : 2,
+    "height" : 4,
+    "elementPosition" : 1,
+    "elementSourceObjectId" : 998,
+    "elementInputTypeName" : "summary",
+    "elementSourceDataLocation" : "resources\\models\\998\\1_output.summary",
+    "y" : 0,
+    "cssClassName" : "chart-summary",
+    "x" : 0
+  } ],
+  "updatedBy" : "QA"
+}
